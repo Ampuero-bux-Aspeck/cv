@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.row > div{
+    background: #f2f2f2;
+  }
+  .container-fluid{
+    background: #F2F3F4;
+    height: 700px;
+    
+  }
+.container-fluid h1
+{
+    position: absolute;
+    left: 190px;
+    top: 200px;
+    color: #008ad3;
+    font-size: 3em;
+    font-family: sans-serif;
+    font-weight: 1000;
+}
+.container-fluid #piso
+{
+    position: absolute;
+    left: 190px;
+    top: 280px;
+  
+    font-size: 1.75em;
+    font-family: sans-serif;
+    
+}
+
+.d1
+{
+    position: absolute;
+    left: 760px;
+    top: 125px;
+    border-radius: 8px ;
+    box-shadow:5px 5px 25px #cccccc ;
+    background-color: white;
+    padding: 20px;
+    width: 395px;
+    height: 375px;
+}
+.d1 input
+{
+    border-radius: 5px;
+    border-color: #cccccc;
+    color: #000;
+    height: 60px;
+    width: 360px;
+}
+.sci
+{
+    position: absolute;
+    left: 780px;
+    top: 525px;
+}
+.sci li
+{
+    list-style: none;
+}
+.sci li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+
+
+@media screen and (max-width: 620px ) { 
+    .row > div{
+        background: #f2f2f2;
+      }
+      .container-fluid{
+        background: #F2F3F4;
+        height: 590px;
+      }
+    .container-fluid h1
+    {
+        position: absolute;
+        left: 135px;
+        top: 30px;
+        color: #078ad1 ;
+        font-size: 3.5em;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+
+    .d1
+    {
+        position: absolute;
+        left: 50px;
+        top: 125px;
+        border-radius: 8px ;
+        box-shadow:5px 5px 25px #cccccc ;
+        background-color: white;
+        padding: 20px;
+        width: 395px;
+        height: 390px;
+    }
+    
+}
